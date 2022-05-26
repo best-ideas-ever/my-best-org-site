@@ -1,0 +1,9 @@
+{
+  "devDependencies": {
+    "@wix/velo": "^1.0.0"
+  },
+  "scripts": {
+    "postinstall":  "velo sync-types",
+    "dev": "velo dev"
+  }
+}
